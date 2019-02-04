@@ -1,5 +1,5 @@
-a= int(input("Enter a number: "))
-if (1<a<=10):
+a= int(input())
+if (a>0):
    print("Positive")
 elif a == 0:
    print("Zero")
