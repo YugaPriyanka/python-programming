@@ -1,10 +1,9 @@
-a=8
-b=10
-c=5
+a=input
+b=input
+c=input
 if (a >= b) and (a >= c):
-    largest = a
+    print(a)
 elif (b >= a) and (b >= c):
-    largest = b
+    print(b)
 else:
-    largest = c
-print("The largest number between",a,",",b,"and",c,"is",largest)
+    print(c)
