@@ -1,5 +1,5 @@
-lower = int(input("Enter lower range: "))
-upper = int(input("Enter upper range: "))
+lower = int(input())
+upper = int(input())
 print("Prime numbers between",lower,"and",upper,"are:")
 for num in range(lower,upper + 1):
     if (num > 1):
